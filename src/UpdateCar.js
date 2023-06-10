@@ -64,13 +64,10 @@ import {  useParams } from "react-router-dom";
    
     const token = getCookie('token');
     if (role != 'true') {
-      // Redirect the user to the login page
+   
       window.location.href = '/';    
     }
-      // if (!token ) {
-       
-      //    window.location.href = '/';
-      // }
+      
      axios.get(`/api/Car/${id}`, {
 
       headers: {

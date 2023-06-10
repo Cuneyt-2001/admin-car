@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Login from './Login';
-//import CreateAccount from './CreateAccount';
+
 
 import {
   BrowserRouter as Router,
@@ -15,17 +15,12 @@ import {
 
 import Navbar from './Navbar';
 import About from './About';
-//import Loan from './Loan';
-//import CreateLoan from './CreateLoan';
 import AddCar from './AddCar';
 import CarList from './CarList';
 import UpdateCar from './UpdateCar';
-//import WriteReview from './WriteReview';
 import Home from './Home';
-//import GetLoans from './GetLoans';
 import LoansList from './LoansList';
-//import ReviewList from './ReviewList';
-//import UpdateCar2 from './UpdateCar2';
+
 
 
 

@@ -33,7 +33,7 @@ const token = getCookie('token');
     const GetData = async () => {
      
       if (role != 'true') {
-        // Redirect the user to the login page
+      
         window.location.href = '/';    
       }
       const result = await axios.get('https://localhost:7096/api/Car', {
